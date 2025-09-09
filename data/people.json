@@ -1,0 +1,111 @@
+{
+    "leadingFaculty": [{
+            "name": "Prof. Xin Guo",
+            "image": "images/uploads/2019/09/5a572a77cae95-1.png",
+            "link": "https://xinguo.ieor.berkeley.edu"
+        }
+    ],
+    "currentPhDStudents": [{
+            "name": "Haoyang Cao",
+            "image": "images/uploads/2019/04/haoyang_avatar.png",
+            "link": "http://sites.google.com/berkeley.edu/haoyang-cao/home"
+        },
+        {
+            "name": "Anran Hu",
+            "image": "images/uploads/2019/04/anran_avatar.png"
+        },
+        {
+            "name": "Yusuke Kikuchi",
+            "image": "images/uploads/2019/04/yusuke_avatar.png"
+        },
+        {
+            "name": "Mahan Tajrobehkar",
+            "image": "images/uploads/2019/04/mahan_avatar.png",
+            "link": "https://www.linkedin.com/in/mahan-tajrobehkar-403862138/"
+        },
+        {
+            "name": "Haotian Gu",
+            "image": "images/uploads/2019/04/haotian_avatar.png"
+        }
+    ],
+    "currentPostdocs": [{
+            "name": "Wenpin Tang",
+            "image": "images/uploads/2019/09/wenpin.jpg",
+            "link": "http://coerisklab.wpengine.com/wp-content/uploads/2020/05/CV.pdf"
+        },
+        {
+            "name": "Xiaoli Wei",
+            "image": "images/uploads/2019/09/xiaoli.jpg"
+        },
+        {
+            "name": "Cheng-Ju Wu",
+            "image": "images/uploads/2019/09/chengju.jpg",
+            "link": "https://www.linkedin.com/in/cheng-ju-wu-270aa313b/"
+        }
+    ],
+    "pastPhDStudents": [{
+            "name": "Isaac Yuan Mao",
+            "image": "images/uploads/2019/04/isaac_avatar.jpg"
+        },
+        {
+            "name": "Zhao Ruan",
+            "image": "images/uploads/2019/04/zhao_avatar.jpg"
+        },
+        {
+            "name": "Kelly Sin Man Choi",
+            "image": "images/uploads/2019/04/kelly_avatar.jpg"
+        },
+        {
+            "name": "Chen Pan",
+            "image": "images/uploads/2019/04/chen_avatar.jpg"
+        },
+        {
+            "name": "Joon Seok Lee",
+            "image": "images/uploads/2019/04/joon_avatar.jpg"
+        },
+        {
+            "name": "Nan Yang",
+            "image": "images/uploads/2019/04/nan_avatar.png"
+        },
+        {
+            "name": "Renyuan Xu",
+            "image": "images/uploads/2019/04/renyuan_avatar-1.png",
+            "link": "https://renyuanxu.github.io/"
+        }
+    ],
+    "pastPostdocs": [{
+        "name": "Matteo Basei",
+        "image": "images/uploads/2019/04/matteo_avatar.png",
+        "link": "https://sites.google.com/view/mbasei"
+    }],
+    "pastVisitors": [{
+            "name": "Matteo Basei",
+            "link": "https://sites.google.com/view/mbasei",
+            "linkTarget": "_new"
+        },
+        {
+            "name": "Makoto Goto"
+        },
+        {
+            "name": "Chen Pan"
+        },
+        {
+            "name": "Yuchao Dong"
+        },
+        {
+            "name": "Professor Ying Jiao",
+            "link": "http://isfaserveur.univ-lyon1.fr/~jiao/",
+            "linkTarget": "_new"
+        },
+        {
+            "name": "Professor Huyen Pham",
+            "link": "https://sites.google.com/site/phamxuanhuyen/",
+            "linkTarget": "_new"
+        },
+        {
+            "name": "Professor Monique Jeanblanc",
+            "link": "https://www.maths.univ-evry.fr/pages_perso/jeanblanc/",
+            "linkTarget": "_new"
+        }
+    ]
+}

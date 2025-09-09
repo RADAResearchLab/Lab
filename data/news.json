@@ -1,0 +1,25 @@
+{
+  "articles": [
+    {
+      "title": "New paper on Learning Mean Field Game",
+      "date": "April 4, 2019",
+      "author": "Renyuan Xu",
+      "content": "We have a new submission on reinforcement learning for mean field game. Please have a look at <a href=\"https://arxiv.org/pdf/1901.09585.pdf\">https://arxiv.org/pdf/1901.09585.pdf</a>."
+    },
+    {
+      "title": "Congratulate Xinyu Li for her postdoctoral position",
+      "date": "August 2025",
+      "content": "Congratulate Xinyu Li for her postdoctoral position, starting September 2025 at the Department of Mathematics, University of Oxford."
+    },
+    {
+      "title": "Welcome back Renyuan Xu to the bay area",
+      "date": "August 2025", 
+      "content": "Welcome back Renyuan Xu to the bay area for her new career adventure as a tenure track assistant professor at MS&E department, Stanford University, starting September 2025."
+    },
+    {
+      "title": "Acknowledgment of generous gift fund from QRT",
+      "date": "June 2025",
+      "content": "We acknowledge and appreciate the generous gift fund from Qube Research & Technologies (QRT)."
+    }
+  ]
+}

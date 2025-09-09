@@ -1,0 +1,226 @@
+{
+  "title": "Research Projects by Topics",
+  "categories": [
+    {
+      "id": "machine_learning", 
+      "name": "Machine Learning",
+      "projects": [
+        {
+          "display": {
+            "title": "Evolution and Convergence of GANs Training: An SDE Approach",
+            "image": "images/uploads/2020/06/sde-300x181.png",
+            "date": "June 2, 2020",
+            "authors": "Authors: Haoyang Cao, Xin Guo"
+          },
+          "details": {
+            "authors": "Haoyang Cao, Xin Guo",
+            "abstract": "Generative adversarial networks (GANs) have enjoyed tremendous empirical successes, and research interest in the theoretical understanding of GANs training process is rapidly growing, especially for its evolution and convergence analysis. This paper establishes a continuous-time approximation for the discrete-time training process of GANs under stochastic gradient algorithms (SGAs). The approximation is in the form of coupled stochastic differential equations (SDEs). The analysis of the SDEs and the associated invariant measures yields conditions for the convergence of GANs training. Further analysis of the invariant measure for the coupled SDEs gives rise to a fluctuation-dissipation relations (FDRs) for GANs, revealing the trade-off of the loss landscape between the generator and the discriminator and providing guidance for learning rate scheduling.",
+            "paper_text": "soon be available on arXiv.org.",
+            "image": "images/uploads/2020/06/sde.png"
+          }
+        },
+        {
+          "display": {
+            "title": "Perturbed Gradient Descent with Occupation Time",
+            "image": "images/uploads/2020/05/pgdot-300x224.png",
+            "date": "May 9, 2020",
+            "authors": "Authors: Xin Guo, Jiequn Han, Wenpin Tang"
+          },
+          "details": {
+            "authors": "Xin Guo, Jiequn Han, Wenpin Tang",
+            "abstract": "This paper develops further the idea of perturbed gradient descent, by adapting perturbation with the history of state via the notation of occupation time for saddle points. The proposed algorithm PGDOT is shown to converge at least as fast as perturbed gradient descent (PGD) algorithm, and is guaranteed to avoid getting stuck at saddle points. The analysis is corroborated by experimental results.",
+            "paper_text": "https://arxiv.org/pdf/2005.04507.pdf",
+            "paper_url": "https://arxiv.org/pdf/2005.04507.pdf",
+            "image": "images/uploads/2020/05/pgdot.png"
+          }
+        },
+        {
+          "display": {
+            "title": "Q-Learning for Mean-Field Controls",
+            "image": "images/uploads/2020/02/learning-mfc-300x171.png",
+            "date": "February 12, 2020",
+            "authors": "Authors: Haotian Gu, Xin Guo, Xiaoli Wei, Renyuan Xu"
+          },
+          "details": {
+            "authors": "Haotian Gu, Xin Guo, Xiaoli Wei, Renyuan Xu",
+            "abstract": "Multi-agent reinforcement learning (MARL) has been applied to many challenging problems including two-team computer games, autonomous drivings, and real-time biddings. Despite the empirical success, there is a conspicuous absence of theoretical study of different MARL algorithms: this is mainly due to the curse of dimensionality caused by the exponential growth of the joint state-action space as the number of agents increases. Mean-field controls (MFC) with infinitely many agents and deterministic flows, meanwhile, provide good approximations to N-agent collaborative games in terms of both game values and optimal strategies. In this paper, we study the collaborative MARL under an MFC approximation framework: we develop a model-free kernel-based Q-learning algorithm (CDD-Q) and show that its convergence rate and sample complexity are independent of the number of agents. Our empirical studies on MFC examples demonstrate strong performances of CDD-Q. Moreover, the CDD-Q algorithm can be applied to a general class of Markov decision problems (MDPs) with deterministic dynamics and continuous state-action space.",
+            "paper_text": "https://arxiv.org/pdf/2002.04131.pdf",
+            "paper_url": "https://arxiv.org/pdf/2002.04131.pdf",
+            "image": "images/uploads/2020/02/learning-mfc.png"
+          }
+        },
+        {
+          "display": {
+            "title": "Connecting GANs and MFGs",
+            "image": "images/uploads/2020/02/Gans-300x179.png",
+            "date": "February 12, 2020",
+            "authors": "Authors: Haoyang Cao, Xin Guo"
+          },
+          "details": {
+            "authors": "Haoyang Cao, Xin Guo",
+            "abstract": "Generative Adversarial Networks (GANs), introduced in 2014 by Goodfellow et. al., have celebrated great empirical success, especially in image generation and processing. Meanwhile, Mean-Field Games (MFGs), established around the same time by French researchers Lasry and Lions and a Canadian team Huang, Malhame and Caines, as analytically feasible approximations for N-player games, have experienced rapid growth in theoretical studies. In this paper, we establish theoretical connections between GANs and MFGs. Interpreting MFGs as GANs, on one hand, allows us to devise GANs-based algorithm to solve MFGs. Interpreting GANs as MFGs, on the other hand, provides a new and probabilistic foundation for GANs. Moreover, this interpretation helps establish an analytical connection between GANs and Optimal Transport (OT) problems, the connection previously understood mostly from the geometric perspective as in Lei et. al..",
+            "paper_text": "https://arxiv.org/pdf/2002.04112.pdf",
+            "paper_url": "https://arxiv.org/pdf/2002.04112.pdf",
+            "image": "images/uploads/2020/02/Gans.png"
+          }
+        },
+        {
+          "display": {
+            "title": "Consistency of the Buckley-Osthus Model and the Hierarchical Preferential Attachment Model",
+            "image": "images/uploads/2019/10/hpam-300x169.jpg",
+            "date": "October 17, 2019",
+            "authors": "Accepted by ICML2020. Authors: Xin Guo, Fengmin Tang, Wenpin Tang"
+          },
+          "details": {
+            "authors": "Xin Guo, Fengmin Tang, Wenpin Tang",
+            "abstract": "This paper is concerned with statistical estimation of two preferential attachment models: the Buckley-Osthus model and the hierarchical preferential attachment model. We prove that the maximum likelihood estimates for both models are consistent. We perform simulation studies to corroborate our theoretical findings. We also apply both models to study the evolution of a real-world network. A list of open problems are presented.",
+            "paper_url": "https://arxiv.org/pdf/1910.07698.pdf",
+            "paper_text": "https://arxiv.org/pdf/1910.07698.pdf",
+            "image": "images/uploads/2019/10/hpam.jpg"
+          }
+        },
+        {
+          "display": {
+            "title": "Learning Mean-Field Games",
+            "image": "images/uploads/2019/09/lmfg_figure-300x143.jpg",
+            "date": "January 28, 2019",
+            "authors": "Authors: Xin Guo, Anran Hu, Renyuan Xu, Junzi Zhang."
+          },
+          "details": {
+            "authors": "Xin Guo, Anran Hu, Renyuan Xu, Junzi Zhang.",
+            "abstract": "This paper presents a general mean-field game (GMFG) framework for simultaneous learning and decision-making in stochastic games with a large population. It first establishes the existence of a unique Nash Equilibrium to this GMFG, and explains that naively combining Q-learning with the fixed-point approach in classical MFGs yields unstable algorithms. It then proposes a Q-learning algorithm with Boltzmann policy (GMF-Q), with analysis of convergence property and computational complexity. The experiments on repeated Ad auction problems demonstrate that this GMF-Q algorithm is efficient and robust in terms of convergence and learning accuracy. Moreover, its performance is superior in convergence, stability, and learning ability, when compared with existing algorithms for multi-agent reinforcement learning.",
+            "paper_url": "https://arxiv.org/abs/1901.09585",
+            "paper_text": "https://arxiv.org/pdf/1901.09585.pdf",
+            "image": "images/uploads/2019/09/lmfg_figure.jpg"
+          }
+        },
+        {
+          "display": {
+            "title": "Consistency and Computation of Regularized MLEs for Multivariate Hawkes Processes",
+            "image": "images/uploads/2018/10/mhp_mle_figure-300x117.jpg",
+            "date": "October 6, 2018",
+            "authors": "Authors: Xin Guo, Anran Hu, Renyuan Xu, Junzi Zhang."
+          },
+          "details": {
+            "authors": "Xin Guo, Anran Hu, Renyuan Xu, Junzi Zhang.",
+            "abstract": "This paper proves the consistency property for the regularized maximum likelihood estimators (MLEs) of multivariate Hawkes processes (MHPs). It also develops an alternating minimization type algorithm (AA-iPALM) to compute the MLEs with guaranteed global convergence to the set of stationary points. The performance of this AA-iPALM algorithm on both synthetic and real-world data shows that AA-iPALM consistently improves over iPALM and PALM. Moreover, AA-iPALM is able to identify the causality structure in rental listings on craigslist and herd behavior in the NASDAQ ITCH dataset.",
+            "paper_url": "https://arxiv.org/abs/1810.02955",
+            "paper_text": "https://arxiv.org/pdf/1810.02955.",
+            "image": "images/uploads/2018/10/mhp_mle_figure.jpg"
+          }
+        },
+        {
+          "display": {
+            "title": "Relaxed Wasserstein with Applications to GANs", 
+            "image": "images/uploads/2019/09/nan-rwgan-300x136.png",
+            "date": "May 19, 2017",
+            "authors": "Authors: Xin Guo, Johnny Hong, Tianyi Lin, Nan Yang."
+          },
+          "details": {
+            "abstract": "Comparing probability distributions is an integral part of many modern data-driven applications, such as generative adversarial networks (GANs) and distributionally robust optimization (DRO). We propose a novel class of statistical divergences called Relaxed Wasserstein (RW) divergence, which generalizes Wasserstein divergence and is parametrized by the class of strictly convex and differentiable functions. We establish for RW divergence several probabilistic properties, many of which are crucial for the success of Wasserstein divergence. In addition, we derive theoretical results showing that the underlying convex function in RW plays an important role in variance stabilization, shedding light on the choice of appropriate convex function. We develop a version of GANs based on RW divergence and demonstrate via empirical experiments that RW-based GANs (RWGANs) lead to superior performance in image generation problems compared to existing approaches. In particular, we find that in our experiments RWGANs are fastest in generating meaningful images compared to other GANs. We also illustrate the use of RW divergence in constructing ambiguity sets for DRO problems, and the robust portfolio problem under mean-variance framework.",
+            "paper_url": "https://arxiv.org/abs/1705.07164",
+            "paper_text": "https://arxiv.org/pdf/1705.07164.",
+            "image": "images/uploads/2019/09/nan-rwgan.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ctrl_games",
+      "name": "Stochastic Controls and Games", 
+      "projects": [
+        {
+          "display": {
+            "title": "MFGs for Partially Reversible Investment",
+            "image": "images/uploads/2019/09/par-inv-300x169.jpg",
+            "date": "August 28, 2019",
+            "authors": "Authors: Haoyang Cao, Xin Guo, Joon Seok Lee."
+          },
+          "details": {
+            "authors": "Haoyang Cao, Xin Guo, Joon Seok Lee.",
+            "abstract": "This paper analyzes a class of MFGs with singular controls motivated from the partially reversible problem. It establishes the existence of the solution when controls are of bounded velocity, solves explicitly the game when controls are of finite variation, and presents sensitivity analysis to compare the single-player game with the MFG. Our analysis shows that MFGs, when appropriately formulated, can demonstrate genuine game effects even without heterogeneity among players and additional common noise.",
+            "paper_url": "https://arxiv.org/abs/1908.10916",
+            "paper_text": "https://arxiv.org/pdf/1908.10916.",
+            "image": "images/uploads/2019/09/par-inv.jpg"
+          }
+        },
+        {
+          "display": {
+            "title": "Nonzero-sum Stochastic Games with Impulse Controls",
+            "image": "images/uploads/2019/09/imp-grph.jpg",
+            "date": "January 23, 2019",
+            "authors": "Authors: Matteo Basei, Haoyang Cao, Xin Guo."
+          },
+          "details": {
+            "authors": "Matteo Basei, Haoyang Cao, Xin Guo.",
+            "abstract": "We consider a general class of nonzero-sum N-player stochastic games with impulse controls, where players control the underlying dynamics with discrete interventions. We adopt a verification approach and provide sufficient conditions for the Nash equilibria (NEs) of the game. We then consider the limit situation of N→∞, that is, a suitable mean-field game (MFG) with impulse controls. We show that under appropriate technical conditions, the MFG is an ε-NE approximation to the N-player game, with ε=O(1/√N). As an example, we analyze in details a class of stochastic games which extends the classical cash management problem to the game setting. In particular, we characterize the NEs for its two-player case and compare the results to the single-player case, showing the impact of competition on the player’s optimal strategy, with sensitivity analysis of the model parameters.",
+            "paper_url": "https://arxiv.org/abs/1901.08085",
+            "paper_text": "https://arxiv.org/pdf/1901.08085.",
+            "image": "images/uploads/2019/09/imp-grph.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "id": "finance",
+      "name": "Financial Engineering",
+      "projects": [
+        {
+          "display": {
+            "title": "Quantitative Trading: Algorithms, Analytics, Data, Models, Optimization",
+            "image": "images/uploads/2019/09/fintech_book-198x300.jpg",
+            "date": "December 15, 2016",
+            "authors": "Authors: Xin Guo, Tze Liang Lai, Howard Shek, Samuel Po-Shing Wang."
+          },
+          "details": {
+            "authors": "Xin Guo, Tze Liang Lai, Howard Shek, Samuel Po-Shing Wang.",
+            "abstract": "The first part of this book discusses institutions and mechanisms of algorithmic trading, market microstructure, high-frequency data and stylized facts, time and event aggregation, order book dynamics, trading strategies and algorithms, transaction costs, market impact and execution strategies, risk analysis, and management. The second part covers market impact models, network models, multi-asset trading, machine learning techniques, and nonlinear filtering. The third part discusses electronic market making, liquidity, systemic risk, recent developments and debates on the subject.",
+            "paper_text": "amazon.com",
+            "paper_url": "https://www.amazon.com/Quantitative-Trading-Algorithms-Analytics-Optimization/dp/1498706487/ref=sr_1_1?ie=UTF8&qid=1470801724&sr=8-1&keywords=Quantitative+Trading%3A+Algorithms%2C+Analytics%2C+Data%2C+Models%2C+Optimization",
+            "paper_label": "Available at",
+            "image": "images/uploads/2019/09/fintech_book.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "id": "health",
+      "name": "Healthcare",
+      "projects": [
+        {
+          "display": {
+            "title": "[Working Paper] Detection of Lung Cancer in DNA Methylation Biomarkers",
+            "image": "images/uploads/2019/09/SVM_lung_cancer-300x225.png",
+            "date": "September 2, 2019",
+            "authors": "Authors: Xin Guo, Bingsi Li, Cheng-Ju Wu."
+          },
+          "details": {
+            "authors": "Xin Guo, Bingsi Li, Cheng-Ju Wu.",
+            "abstract": "The other ongoing project studies machine learning algorithm for detection of early stage lung cancer in genome sequence data in blood samples. DNA methylation is known to provide potential biomarkers for assessment of cancer risk. Early diagnosis is the key to improving survival rates for lung cancer. Researchers collect patients' blood sample and then analyze methylation level in DNA Sequence to tell a patient's cancer status (healthy, benign tumor, or tumor). Besides, knowing the precise stage of cancer used to help doctors choose targeted therapies for people already diagnosed with lung cancer. The difficulty of detecting lung cancer is that there is subtle difference of DNA methylation level between healthy people and people with tumor. Besides, DNA sequence is high-dimension data so it cannot be classified by simply read the numerical values of each biomarkers. Moreover, traditional imaging method (X-ray or CT images of lungs) need experienced doctor eye screening the images according to their medial domain knowledge and previous experience. In order to increase the diagnostic performance, it is necessary to develop auxiliary diagnosis system for lung cancer using machine learning methods. Researcher's in the this project has collected blood samples from 636 patients from hospital in China and 8312 biomarkers are extracted as features form these blood samples. A three-class support vector machine (SVM) classifier are trained by the collected data with batch effect and the classifier can achieve about 83% sensitivity and 75% specificity in average.",
+            "paper_text": "In preparation",
+            "image": "images/uploads/2019/09/SVM_lung_cancer.png"
+          }
+        },
+        {
+          "display": {
+            "title": "[Working Paper] Detection of Diabetic Retinopathy in Retinal Fundus Photographs",
+            "image": "images/uploads/2019/09/DR-300x225.png",
+            "date": "September 2, 2019",
+            "authors": "Authors: Xin Guo, Bell Wang, Cheng-Ju Wu."
+          },
+          "details": {
+            "authors": "Xin Guo, Bell Wang, Cheng-Ju Wu.",
+            "abstract": "One of the ongoing project studies development and validation of a deep learning algorithm for detection of diabetic retinopathy (DR) in retinal fundus photographs. Diabetic retinopathy is an eye disease that can cause vision loss or even blindness associated with long-standing diabetes. In general, retinopathy results from the destruction of micro-vessels caused by diabetes. There are many blood vessels on the retina. After small blood vessels are destroyed, retina may have the problem of hypoxia and ischemia, which may cause the formation of retinal microangioma, hemorrhage, exudation, vitreous, neovascularization, and vitreo-retinal proliferative. All of such changes of the retina are called diabetic retinopathy. Annual eye screening can slow or avert the progression to vision impairment. However, screening can be difficult as the disease often shows few symptoms in its early stage. Moreover, screening DR could be very expensive and time-consuming as it requires experts' manual process. Experts need to examine fundus photographs of the retina and evaluate the results according to their medial domain knowledge and previous experience. With the number of diabetic patients grows rapidly, public health infrastructure, including expertise and equipment, is extremely in short in middle- and low-income countries. An automated system for DR screening to maximize the clinical utility is needed for a long time. Automated DR screening has potential benefits such as increasing efficiency, reproducibility, accessibility and coverage for early detection and treatment of DR with much less cost. Deep learning has made great progress in image classification and pattern recognition, which can also be applied to the DR classification task.",
+            "paper_text": "In preparation",
+            "image": "images/uploads/2019/09/DR.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "blockchain",
+      "name": "Blockchain",
+      "projects": []
+    }
+  ]
+}
